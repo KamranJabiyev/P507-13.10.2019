@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red {
+    background: red;
+    height: 150px;
+}
+
+.blue {
+    background: blue;
+    height: 150px;
+}
+
+.green {
+    background: green;
+    height: 150px;
+}
+
+.yellow {
+    background: yellow;
+    height: 150px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+
+/* .claerfix {
+    clear: both;
+} */
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-1 {
+    width: 8.3333%;
+}
+
+.col-2 {
+    width: 16.6666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-5 {
+    width: 41.666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333%;
+}
+
+.col-8 {
+    width: 66.666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333%;
+}
+
+.col-11 {
+    width: 91.666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.offset-1 {
+    margin-left: 8.3333%;
+}
+
+.offset-2 {
+    margin-left: 16.6666%;
+}
+
+.offset-3 {
+    margin-left: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.3333%;
+}
+
+.offset-5 {
+    margin-left: 41.666%;
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: 58.3333%;
+}
+
+.offset-8 {
+    margin-left: 66.666%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.offset-10 {
+    margin-left: 83.3333%;
+}
+
+.offset-11 {
+    margin-left: 91.666%;
+}
+
+nav {
+    float: right;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu ul {}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    width: 110px;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu .search {
+    padding: 10px 0;
+    float: right;
+}
+
+.menu span {
+    width: 35px;
+    height: 35px;
+    background: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 50%;
+}
+
+.menu span .fa-search {
+    font-size: 20px;
+}
+
+.menu button {
+    padding: 10px;
+    font-size: 20px;
+    background: #7d7de1;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
